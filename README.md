@@ -118,25 +118,36 @@ This is a deliberate part of the product philosophy:
 
 ### Crypto
 
-The Crypto module uses Binance OHLCV data and supports multi-year historical backtesting with technical strategies including EMA Cross, MACD, RSI, Stochastic and Bollinger-based volatility logic, together with 200-EMA regime filtering.
+The Crypto module uses Binance OHLCV data and supports multi-year historical backtesting with technical strategies.
+* **Trend**: EMA Cross, MACD
+* **Momentum**: RSI, Stochastic
+* **Volatility**: Bollinger Bands
+* **Regime**: 200-EMA filter
 
 ### Stocks & ETFs
 
-The Stock Intelligence module provides benchmark-relative analysis and regular-session controls. It includes EMA Crossover, Money Flow Index and Keltner Channels, together with Alpha/Beta and benchmark analysis.
+The Stock Intelligence module provides benchmark-relative analysis and regular-session controls. 
+* **Trend**: EMA Cross
+* **Momentum**: RSI, Money Flow Index (MFI)
+* **Volatility**: Bollinger Bands, Keltner Channels
+* **Regime**: 200-EMA filter
 
 ### Commodities
 
-The Commodity module is session-aware and designed around the distinctive time and volatility characteristics of physical-asset markets. It includes ADX Trend, ROC Momentum, ATR Breakout, ATR trailing stops, Seasonal Deviation, Seasonal Ghost Curve visualization and DXY correlation context.
+The Commodity module is session-aware and designed around the distinctive time and volatility characteristics of physical-asset markets. 
+* **Trend**: ADX Trend
+* **Momentum**: RSI, Rate of Change (ROC)
+* **Volatility**: Bollinger Bands, ATR Breakout
+* **Regime**: 200-EMA filter
+* **Risk**: ATR trailing stops
 
-Chronos currently treats commodity data as technical research vectors. It does not model physical storage, delivery schedules, weather, crop reports, mining disruptions, or futures roll effects such as contango and backwardation.
+Commodity research remains technical in scope and does not currently model physical delivery, storage, weather, crop reports, mining disruptions, or futures roll mechanics such as contango and backwardation.
 
 ## On-Device Performance
 
-Chronos is designed to make substantial vector processing practical on modern Android hardware.
+Chronos performs vector operations directly on-device. In informal testing on the developer's own hardware, a ~10-year BTC/USDT dataset at 4h resolution (~8.9MB total downloaded size) processed with sub-100ms execution time for the full backtest.
 
-A representative Crypto workload processed approximately **17,500 one-hour candles representing two years of data in under 100 ms**, with a memory footprint of approximately **1.1 MB per two-year spot vector**.
-
-The architecture is modular Kotlin and remains open to future lower-level performance optimization.
+This figure reflects a single-device observation, not a controlled benchmark — actual performance will vary by device, dataset size, timeframe, market module, and analytical workload.
 
 ## Data Integrity Example
 
