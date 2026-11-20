@@ -1,8 +1,8 @@
-\# Privacy Policy for Axiom Chronos Vector
+\# **Privacy Policy for Axiom Chronos Vector**
 
 
 
-\*\*Last Updated: 2026-11-20\*\*
+**\*\*Last Updated: 2026-11-20\*\***
 
 
 
