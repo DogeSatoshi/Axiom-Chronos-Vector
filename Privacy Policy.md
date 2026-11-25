@@ -1,92 +1,31 @@
-\# **Privacy Policy for Axiom Chronos Vector**
-
-
-
-**\*\*Last Updated: 2026-11-20\*\***
-
-
-
-\*\*Astra-Axiom Intelligence Systems\*\* ("we," "our," or "us") operates the Axiom Chronos Vector mobile application (the "App"). 
-
-
-
-This Privacy Policy explains how we handle information when you use our App. We have designed Chronos with a strict \*\*privacy-first, local-first\*\* architecture.
-
-
-
-\### 1. Information We Do \*Not\* Collect
-
-We do not require you to create an account. We do not collect, store, or transmit any of the following:
-
-\- Personal identification information (Name, email address, phone number).
-
-\- User-generated data (your custom strategies, backtest parameters, or results).
-
-\- Location data.
-
-\- Device identifiers (IMEI, MAC address, or advertising IDs).
-
-\- Telemetry or analytics data.
-
-
-
-\*\*No accounts. No telemetry. No ads.\*\*
-
-
-
-\### 2. Data Processed Locally on Your Device
-
-All computations, calculations, and data caching occur strictly on your device. 
-
-\- \*\*Market Data Caching:\*\* When you fetch historical market data, the App caches this data temporarily on your device's internal storage to improve performance. This data is purged automatically when you clear the app's cache or uninstall the App.
-
-\- \*\*User Preferences:\*\* App settings (like theme choice and cached entitlements) are stored locally using standard Android SharedPreferences. They do not leave your device and are excluded from Android Auto Backup.
-
-\- \*\*Exported Reports:\*\* If you export a PDF report, the file is generated locally on your device and saved to the location you choose via the Android Storage Access Framework. We do not have access to these files.
-
-
-
-\### 3. Third-Party Services (Data Fetching)
-
-To perform backtests, the App must fetch historical market data from third-party public APIs over the internet. When you initiate a data fetch, your device sends a request directly to these providers. 
-
-
-
-While we do not collect your data, these third-party providers will receive standard network information (such as your IP address) and the requested ticker symbol as part of the standard HTTP request required to return the market data.
-
-\- \*\*Binance:\*\* (For Crypto assets). Please refer to Binance's Privacy Policy.
-
-\- \*\*Yahoo Finance:\*\* (For Stocks and Commodities). Please refer to Yahoo's Privacy Policy.
-
-
-
-\### 4. Payments and In-App Purchases
-
-If you purchase the "Full Edition" of the App, the transaction is processed entirely by \*\*Google Play Billing\*\*. 
-
-\- We do not collect, see, or store your credit card details or payment information.
-
-\- Google Play provides us with an anonymous receipt token to verify your purchase.
-
-\- Please refer to Google's Privacy Policy for how they handle payment data.
-
-
-
-\### 5. Children's Privacy
-
-The App does not collect any personal information from anyone, including children under the age of 13.
-
-
-
-\### 6. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
-
-
-
-\### 7. Contact Us
-
-If you have any questions about this Privacy Policy, you can contact us at:
-
+Privacy Policy for Axiom Chronos Vector
+Last Updated: 2026-11-22
+Astra-Axiom Intelligence Systems ("we", "our" or "us") operates the Axiom Chronos Vector mobile application (the "App").
+This Privacy Policy explains how information is handled when you use the App. Chronos is designed to work locally on your device and to collect nothing about you.
+1. Information we do not collect
+You do not need an account. We do not collect, store or transmit any of the following:
+Personal identification information (name, email address, phone number).
+Your strategies, backtest settings or results.
+Location data.
+Device identifiers (such as IMEI, MAC address or advertising ID).
+Telemetry or analytics data. The App contains no analytics, advertising or tracking software.
+We operate no server that receives data from the App.
+2. Data stored on your device
+Market data. When you request historical market data, the App holds it in the device's memory while you use it. It is not written to disk, and it is discarded when you change market, close the App or the system ends the App.
+Settings and purchase status. The App stores your chosen theme, and a purchase flag with the time it was last checked with Google Play, in the App's private storage. This data is excluded from Android backups and device-to-device transfers. Uninstalling the App removes it.
+Exported reports. If you export a PDF report, it is generated on your device and saved to the location you choose with the Android file picker. We have no access to it.
+3. Third-party market-data providers
+To run a backtest, the App downloads historical market data directly from public providers over the internet:
+Binance (crypto assets)
+Yahoo Finance (stocks and commodities)
+Your device sends the request directly to the provider. We do not receive or relay it. Each provider receives the standard information that comes with any internet request, such as your IP address, and the details of what you asked for: the symbol, timeframe and date range. How they handle that information is described in their own privacy policies.
+4. Payments and in-app purchases
+If you buy the "Full Edition", Google Play processes the payment. We do not receive your payment card details or other payment information. The App asks Google Play on your device whether you own Full Edition, and checks again when you open or return to the App. Google may provide us with limited order information (for example order number, date and status) through the Google Play Console, as it does for every developer. Please refer to Google's Privacy Policy for how Google handles payment data.
+If you allow diagnostics sharing on your device, Google Play may give us aggregated crash and performance statistics. These do not identify you to us.
+5. Children
+The App is not directed to children. It does not collect personal information from anyone, including children under 13.
+6. Changes to this Privacy Policy
+We may update this Privacy Policy from time to time. We will post the new version on this page and update the "Last Updated" date.
+7. Contact
+Astra-Axiom Intelligence Systems (DogeSatoshi)
 astraaxiom@gmail.com
-
