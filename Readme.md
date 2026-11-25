@@ -45,7 +45,7 @@ Bad data leads to bad backtests. Before any backtest is presented, the data is a
 ### Quantitative Intelligence
 - **Performance:** Total Return, Max Drawdown, Win Rate, Profit Factor, Expectancy, Trade Count.
 - **Risk-Adjusted:** Sharpe, Sortino, Calmar, and Kelly Criterion.
-- **Benchmark:** Tactical Alpha, Beta, and Pearson Correlation (appear in the PDF export, measured against the buy-and-hold of the same asset).
+- **Benchmark:** Alpha, Beta, and Pearson Correlation (appear in the PDF export, measured against the buy-and-hold of the same asset).
 
 ### Probability Cloud & Sequence Risk
 Chronos uses Monte Carlo permutation reshuffling to generate a **Probability Cloud**. It shows the median, 5th, and 95th percentile worst-case drawdowns. It does not predict the future; it exposes how dependent your result is on the sequence of historical trades. (Memory-capped to prevent crashes on high-frequency strategies).
@@ -67,7 +67,7 @@ Because backtests are simulations, Chronos is explicit about its assumptions:
 - Alpha, Beta, and Correlation are measured against buy-and-hold of the *same asset*, not a market index.
 
 ## Data & Privacy
-Market data is fetched directly from public market data providers (Binance for Crypto, Yahoo Finance for Stocks/Commodities). Note that these providers will see your IP address and the requested tickers to return the data. Downloaded data is cached locally on your device and purged when the session is cleared.
+Market data is fetched directly from public market data providers (Binance for Crypto, Yahoo Finance for Stocks/Commodities). Note that these providers will see your IP address and the requested tickers to return the data. Downloaded data is cached locally in memory on your device and purged when the session is cleared.
 
 ## Architecture & Tech Stack
 Chronos follows an MVVM structure with Clean Architecture around the computational core (Jetpack Compose, Coroutines/StateFlow, OkHttp, MPAndroidChart, Google Play Billing). 
