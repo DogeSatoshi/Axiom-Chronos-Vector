@@ -1,22 +1,37 @@
-Third-Party Notices / Open Source Licences
+# Open-Source Software Notices
 
-Axiom Chronos Vector includes the following third-party components. Each remains the property of its owners and is licensed under its own terms. This list covers libraries that ship inside the application; test-only libraries are not included.
+Axiom Chronos Vector is proprietary software, but it is built upon the shoulders of incredible open-source projects. We are grateful to the maintainers of the following libraries and comply with their licensing terms.
+
+### OkHttp
+Copyright 2019 Square, Inc.
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+### MPAndroidChart
+Copyright 2020 Philipp Jahoda
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+### AndroidX (Jetpack Compose, Core, Lifecycle)
+Copyright The Android Open Source Project
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+### Kotlin Coroutines
+Copyright 2016-2023 JetBrains s.r.o.
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+### Google Play Billing Library
+Copyright Google LLC
+Licensed under the Android Software Development Kit License.
+You may obtain a copy of the License at: https://developer.android.com/studio/terms
+
+### Jetpack Security (Crypto)
+Copyright The Android Open Source Project
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+Market data comes from third-party public endpoints from providers (Binance and Yahoo Finance) and remains subject to their terms.
 
 
-Kotlin standard library and kotlinx.coroutines - Kotlin 2.2 - Apache License 2.0
-
-AndroidX Core, Lifecycle, Activity	- 1.15 / 2.8 / 1.10	- Apache License 2.0
-
-Jetpack Compose (UI, Graphics, Material 3, Material Icons Extended)	- BOM 2026.08.00	- Apache License 2.0
-
-OkHttp and Okio	- 4.12.0	- Apache License 2.0
-
-MPAndroidChart (Philipp Jahoda)	- 3.1.0	- Apache License 2.0
-
-Google Play Billing Library	- 9.1.0	- Provided by Google; subject to Google's terms for the Play Billing Library
-
-The Apache License 2.0 is available at https://www.apache.org/licenses/LICENSE-2.0
-
-Version numbers are taken from the project's dependency catalog at the time of writing. Updates to this file will happen whenever a dependency is added, removed or upgraded, and keep any NOTICE text that a dependency ships with.
-
-Market data comes from third-party providers (Binance and Yahoo Finance) and remains subject to their terms.
