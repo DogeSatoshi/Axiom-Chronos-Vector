@@ -1,5 +1,7 @@
 Privacy Policy for Axiom Chronos Vector
+
 Last Updated: 2026-11-22
+
 Astra-Axiom Intelligence Systems ("we", "our" or "us") operates the Axiom Chronos Vector mobile application (the "App").
 This Privacy Policy explains how information is handled when you use the App. Chronos is designed to work locally on your device and to collect nothing about you.
 1. Information we do not collect
