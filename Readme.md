@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://play.google.com/">
-    <img src="playstore-icon.png" alt="Get Axiom Chronos Vector on Google Play" width="210">
+    <img src="playstore-icon.png" alt="[Get Axiom Chronos Vector on Google Play](https://play.google.com/store/apps/details?id=com.axiomchronos.vector&pcampaignid=web_share)" width="210">
   </a>
 </p>
 
